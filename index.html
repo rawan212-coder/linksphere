@@ -468,14 +468,15 @@
                     </ul>
                 </div>
 
-                <!-- Newsletter -->
-                <div>
-                    <h4 class="text-white font-semibold mb-4">Early Access</h4>
-                    <p class="text-xs text-gray-400 mb-4">Join the waitlist for pilot program announcements and investor relations.</p>
-                    <form class="flex flex-col gap-2" onsubmit="event.preventDefault(); alert('Thank you for subscribing! LinkSphere AI will be in touch.');">
-                        <input type="email" placeholder="Enter your email" required class="bg-surface border border-white/10 rounded-lg px-4 py-2 text-sm text-white focus:outline-none focus:border-emerald focus:ring-1 focus:ring-emerald transition-all">
-                        <button type="submit" class="bg-emerald text-slate font-semibold rounded-lg px-4 py-2 text-sm hover:bg-emerald/90 transition-colors">Subscribe</button>
-                    </form>
+            <!-- Newsletter / Early Access -->
+<div>
+    <h4 class="text-white font-semibold mb-4">Early Access</h4>
+    <p class="text-xs text-gray-400 mb-4">Join the waitlist for pilot program announcements and investor relations.</p>
+    <form action="https://formspree.io/f/mvkpyzrg" method="POST" class="flex flex-col gap-2">
+        <input type="email" name="subscriber_email" placeholder="Enter your email" required class="bg-surface border border-white/10 rounded-lg px-4 py-2 text-sm text-white focus:outline-none focus:border-emerald focus:ring-1 focus:ring-emerald transition-all">
+        <button type="submit" class="bg-emerald text-slate font-semibold rounded-lg px-4 py-2 text-sm hover:bg-emerald/90 transition-colors">Subscribe</button>
+    </form>
+</div>
                 </div>
             </div>
 
